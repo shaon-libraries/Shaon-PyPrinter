@@ -1,3 +1,5 @@
+#Properties details at 
+#https://docs.microsoft.com/en-us/windows/desktop/cimwin32prov/win32-printer
 import os, sys
 import win32print
 import win32con
@@ -210,3 +212,4 @@ for objItem in colItems:
 	
 
 	"""
+	#If both the Local and Network properties are set to TRUE, then the printer is a network printer.
